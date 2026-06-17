@@ -1,7 +1,7 @@
 import axios from "axios";
 import { useState } from "react";
 
-const API_URL = "http://127.0.0.1:8000";
+const API_URL = "https://resume-ats-checker-backend.onrender.com";
 
 function ScoreCircle({ score }) {
   const color =
